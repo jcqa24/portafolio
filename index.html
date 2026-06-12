@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>jc · backend dev</title>
+<link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+
+<canvas id="matrix-canvas"></canvas>
+
+<nav>
+  <div class="container">
+    <a href="#hero" class="nav-brand">[<span>dev</span>]</a>
+    <ul class="nav-links">
+      <li><a href="#about" class="active">about</a></li>
+      <li><a href="#tech">tech</a></li>
+      <li><a href="#projects">projects</a></li>
+      <li><a href="#youtube">yt</a></li>
+      <li><a href="#experience">exp</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+    <button class="matrix-toggle" id="matrixToggle">[matrix] off</button>
+  </div>
+</nav>
+
+<section id="hero">
+  <div class="container">
+    <div class="hero-prompt">
+      <span class="path">~/$</span> whoami
+    </div>
+    <div class="hero-line">
+      <span class="name" id="hero-name"></span>
+      <span class="divider">|</span>
+      <span class="role">backend developer</span>
+      <span class="cursor" id="hero-cursor"></span>
+    </div>
+    <div class="hero-sub">
+      <span class="highlight">Java</span> & <span class="highlight-blue">Spring Boot</span>
+      &middot; construyendo APIs robustas, microservicios escalables,<br>
+      bases de datos eficientes y codigo limpio.
+    </div>
+    <div class="scroll-hint">
+      <span>▼</span> <span>scrollea</span>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="container">
+    <h2 class="section-title reveal">about</h2>
+    <div class="reveal">
+      <div class="file-header">
+        <span class="dot red"></span>
+        <span class="dot yellow"></span>
+        <span class="dot green"></span>
+        <span class="filename">~/README.md</span>
+      </div>
+      <div class="file-body">
+        <div><span class="line-numbers">1 </span><span class="comment"># Backend Developer</span></div>
+        <div><span class="line-numbers">2 </span></div>
+        <div><span class="line-numbers">3 </span>Desarrollador backend con experiencia en <span class="string">Java</span>,</div>
+        <div><span class="line-numbers">4 </span><span class="string">Spring Boot</span> y arquitectura de microservicios.</div>
+        <div><span class="line-numbers">5 </span>Me apasiona disenar APIs bien estructuradas,</div>
+        <div><span class="line-numbers">6 </span>escalables y mantenibles. Enfoque en clean code,</div>
+        <div><span class="line-numbers">7 </span>patrones de diseno y buenas practicas.</div>
+        <div><span class="line-numbers">8 </span></div>
+        <div><span class="line-numbers">9 </span><span class="keyword">const</span> stack = [<span class="string">'java'</span>, <span class="string">'spring'</span>, <span class="string">'sql'</span>, <span class="string">'docker'</span>];</div>
+        <div><span class="line-numbers">10</span></div>
+        <div><span class="line-numbers">11</span><span class="comment"># Siempre aprendiendo, siempre construyendo.</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="tech">
+  <div class="container">
+    <h2 class="section-title reveal">tecnologias</h2>
+    <div class="reveal">
+
+      <div class="tech-category">
+        <div class="tech-category-title">Java Ecosystem</div>
+        <div class="tech-grid">
+          <div class="tech-item"><span class="tech-icon">☕</span><span class="tech-name">Java</span></div>
+          <div class="tech-item"><span class="tech-icon">🌱</span><span class="tech-name">Spring Boot</span></div>
+          <div class="tech-item"><span class="tech-icon">🔐</span><span class="tech-name">Spring Security</span></div>
+          <div class="tech-item"><span class="tech-icon">🗄️</span><span class="tech-name">JPA/Hibernate</span></div>
+          <div class="tech-item"><span class="tech-icon">📦</span><span class="tech-name">Maven</span></div>
+        </div>
+      </div>
+
+      <div class="tech-category">
+        <div class="tech-category-title">Backend & DB</div>
+        <div class="tech-grid">
+          <div class="tech-item"><span class="tech-icon">🔌</span><span class="tech-name">REST APIs</span></div>
+          <div class="tech-item"><span class="tech-icon">🧩</span><span class="tech-name">Microservicios</span></div>
+          <div class="tech-item"><span class="tech-icon">🐘</span><span class="tech-name">PostgreSQL</span></div>
+          <div class="tech-item"><span class="tech-icon">🐬</span><span class="tech-name">MySQL</span></div>
+          <div class="tech-item"><span class="tech-icon">🍃</span><span class="tech-name">MongoDB</span></div>
+        </div>
+      </div>
+
+      <div class="tech-category">
+        <div class="tech-category-title">DevOps</div>
+        <div class="tech-grid">
+          <div class="tech-item"><span class="tech-icon">🔧</span><span class="tech-name">Git</span></div>
+          <div class="tech-item"><span class="tech-icon">🐳</span><span class="tech-name">Docker</span></div>
+          <div class="tech-item"><span class="tech-icon">🔄</span><span class="tech-name">Jenkins</span></div>
+          <div class="tech-item"><span class="tech-icon">🐧</span><span class="tech-name">Linux</span></div>
+          <div class="tech-item"><span class="tech-icon">☸️</span><span class="tech-name">Kubernetes</span></div>
+        </div>
+      </div>
+
+      <div class="tech-category">
+        <div class="tech-category-title">Frontend</div>
+        <div class="tech-grid">
+          <div class="tech-item"><span class="tech-icon">🌐</span><span class="tech-name">HTML</span></div>
+          <div class="tech-item"><span class="tech-icon">🎨</span><span class="tech-name">CSS</span></div>
+          <div class="tech-item"><span class="tech-icon">⚡</span><span class="tech-name">JavaScript</span></div>
+          <div class="tech-item"><span class="tech-icon">📘</span><span class="tech-name">TypeScript</span></div>
+          <div class="tech-item"><span class="tech-icon">⚛️</span><span class="tech-name">React</span></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="container">
+    <h2 class="section-title reveal">proyectos</h2>
+    <div class="projects-grid reveal">
+
+      <div class="project-card">
+        <div class="top-bar">
+          <span class="arrow">▶</span>
+          <span class="dir">~/projects/order-service</span>
+        </div>
+        <h3>Order Service</h3>
+        <p>Microservicio de gestión de órdenes con Spring Boot, PostgreSQL y Docker. API RESTful con validación, paginación y manejo de excepciones.</p>
+        <div class="project-tags">
+          <span>spring boot</span>
+          <span>postgresql</span>
+          <span>docker</span>
+          <span>jpa</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="top-bar">
+          <span class="arrow">▶</span>
+          <span class="dir">~/projects/auth-gateway</span>
+        </div>
+        <h3>Auth Gateway</h3>
+        <p>API Gateway con Spring Cloud Gateway, Eureka y autenticación JWT. Enrutamiento dinámico y balanceo de carga para microservicios.</p>
+        <div class="project-tags">
+          <span>spring cloud</span>
+          <span>jwt</span>
+          <span>eureka</span>
+          <span>gateway</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="top-bar">
+          <span class="arrow">▶</span>
+          <span class="dir">~/projects/task-manager-api</span>
+        </div>
+        <h3>Task Manager API</h3>
+        <p>API REST para gestión de tareas con Spring Boot, Spring Security, JPA y MySQL. CRUD completo con roles de usuario y tests unitarios.</p>
+        <div class="project-tags">
+          <span>spring boot</span>
+          <span>spring security</span>
+          <span>mysql</span>
+          <span>junit</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="youtube">
+  <div class="container">
+    <h2 class="section-title reveal">youtube</h2>
+    <div class="hero-prompt reveal" style="margin-bottom: 24px;">
+      <span class="path">~/$</span> cat videos.txt | tail -3
+    </div>
+    <div class="youtube-grid reveal">
+
+      <a class="video-card" href="#" target="_blank">
+        <div class="video-thumb">
+          <span class="thumb-icon">🎬</span>
+          <span class="thumb-label">11:32</span>
+          <div class="play-overlay"><span>▶</span></div>
+        </div>
+        <div class="video-info">
+          <h3>Spring Boot + PostgreSQL: API REST desde cero</h3>
+          <span class="video-date">Hace 2 semanas</span>
+        </div>
+      </a>
+
+      <a class="video-card" href="#" target="_blank">
+        <div class="video-thumb">
+          <span class="thumb-icon">🎬</span>
+          <span class="thumb-label">15:47</span>
+          <div class="play-overlay"><span>▶</span></div>
+        </div>
+        <div class="video-info">
+          <h3>Microservicios con Spring Cloud y Docker</h3>
+          <span class="video-date">Hace 1 mes</span>
+        </div>
+      </a>
+
+      <a class="video-card" href="#" target="_blank">
+        <div class="video-thumb">
+          <span class="thumb-icon">🎬</span>
+          <span class="thumb-label">8:21</span>
+          <div class="play-overlay"><span>▶</span></div>
+        </div>
+        <div class="video-info">
+          <h3>Spring Security: JWT y autenticación en Spring Boot</h3>
+          <span class="video-date">Hace 2 meses</span>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="container">
+    <h2 class="section-title reveal">experiencia</h2>
+    <div class="exp-timeline reveal">
+
+      <div class="exp-item">
+        <div class="exp-header">
+          <div>
+            <div class="exp-company">TechCorp</div>
+            <div class="exp-role">Backend Developer</div>
+          </div>
+          <div class="exp-date">ene 2024 - actualidad</div>
+        </div>
+        <div class="exp-desc">
+          <span class="arrow">▶</span> Desarrollo de microservicios con Spring Boot y PostgreSQL.<br>
+          <span class="arrow">▶</span> Implementación de API Gateway con autenticación JWT.<br>
+          <span class="arrow">▶</span> Migración de monolitos a arquitectura de microservicios.
+        </div>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-header">
+          <div>
+            <div class="exp-company">CodeSolutions</div>
+            <div class="exp-role">Junior Java Developer</div>
+          </div>
+          <div class="exp-date">mar 2022 - dic 2023</div>
+        </div>
+        <div class="exp-desc">
+          <span class="arrow">▶</span> Mantenimiento y evolución de APIs REST con Spring Boot.<br>
+          <span class="arrow">▶</span> Optimización de consultas SQL y modelado de datos.<br>
+          <span class="arrow">▶</span> Integración continua con Jenkins y Docker.
+        </div>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-header">
+          <div>
+            <div class="exp-company">StartupX</div>
+            <div class="exp-role">Software Engineer Intern</div>
+          </div>
+          <div class="exp-date">jun 2021 - feb 2022</div>
+        </div>
+        <div class="exp-desc">
+          <span class="arrow">▶</span> Desarrollo de módulos backend con Java y Spring.<br>
+          <span class="arrow">▶</span> Creación de endpoints REST y pruebas unitarias con JUnit.<br>
+          <span class="arrow">▶</span> Colaboración en equipo bajo metodología Scrum.
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <h2 class="section-title reveal">contacto</h2>
+    <div class="hero-prompt reveal">
+      <span class="path">~/$</span> ./contact.sh
+    </div>
+    <div class="contact-grid reveal">
+
+      <a class="contact-link" href="#">
+        <span class="arrow">▶</span>
+        <span class="link-icon">🐙</span>
+        github.com/jc
+      </a>
+
+      <a class="contact-link" href="#">
+        <span class="arrow">▶</span>
+        <span class="link-icon">💼</span>
+        linkedin.com/in/jc
+      </a>
+
+      <a class="contact-link" href="#">
+        <span class="arrow">▶</span>
+        <span class="link-icon">✉️</span>
+        jc@proton.me
+      </a>
+
+      <a class="contact-link" href="#">
+        <span class="arrow">▶</span>
+        <span class="link-icon">🐦</span>
+        @jc_dev
+      </a>
+
+      <a class="contact-link cv" href="#" download>
+        <span class="arrow">▶</span>
+        <span class="link-icon">📄</span>
+        descargar CV.pdf
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <span>~/$ exit</span>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
